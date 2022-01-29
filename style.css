@@ -6,20 +6,72 @@
 body {
     font-family: Dongle;
     display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    gap: 30px;
+    background-image: url(./img/pexels-marcelo-jaboo-696407.jpg);
+    background-position: center;
+
 }
 
-img {
-    width: 100px
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-}
-
-.rightheader {
+.header {
     display: flex;
     justify-content: space-between;
+}
+
+.head1 {
+    height: 30px;
+}
+
+.lefth, .righth {
+    display: flex;
+}
+
+.listen {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 30px 0 30px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.footlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.footimg {
+    height: 100px;
 }
 
